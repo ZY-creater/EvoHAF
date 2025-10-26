@@ -1,0 +1,42 @@
+
+num_folds: 5
+seed: 49 
+skip_existing_fold: false
+gpu_id: 0
+output_dir_base: your_output_dir_base 
+
+data:
+  batch_size: 4 # Keep watch on GPU memory
+  lazy_loading: False
+  max_time_points: 8
+  modality_list:
+  - T1CE
+  - FLAIR
+  num_workers: 8
+  resample_size: [128, 128, 128]
+  target_key: responses
+  train_json: your_train_json.json 
+  val_json: your_val_json.json
+  train_segmentation_key: seg_n24
+  val_segmentation_key: seg_n24
+
+model:
+  class_weight: 1.5
+  encoder_dilations: [1, 2, 4, 8]
+  encoder_feature_channels: [16, 32, 48, 64]
+  feature_dim: 64
+  hidden_dim: 64
+  smooth_threshold: 0.3 
+  smooth_weight: 0.1 
+  use_compensation: true
+  gru_hidden_dim: 256 
+  compensation_mlp_dim: 96 
+
+training:
+  stage1_epochs: 300
+  stage1_patience: 200
+  stage1_lr: 0.001
+  stage1_weight_decay: 0.0001
+  stage1_checkpoint_interval: 10
+  stage2_epochs: 50
+  stage2_lr: 0.0001

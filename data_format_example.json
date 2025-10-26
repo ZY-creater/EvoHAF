@@ -1,0 +1,63 @@
+{
+    "README": "This is an example of the data format required for EvoHAF training",
+    
+    "Patient-GBM-001": {
+        "responses": {
+            "1": "progression",
+            "2": "non-progression",
+            "3": "non-progression",
+            "4": "progression",
+            "5": "non-progression"
+        },
+        "seg_n24": "data/segmentations/Patient-GBM-001_slic_n24.nii.gz",
+        "0": {
+            "T1CE": "data/images/Patient-GBM-001/timepoint_0/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-001/timepoint_0/FLAIR_normalized.nii.gz"
+        },
+        "1": {
+            "T1CE": "data/images/Patient-GBM-001/timepoint_1/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-001/timepoint_1/FLAIR_normalized.nii.gz"
+        },
+        "2": {
+            "T1CE": "data/images/Patient-GBM-001/timepoint_2/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-001/timepoint_2/FLAIR_normalized.nii.gz"
+        },
+        "3": {
+            "T1CE": "data/images/Patient-GBM-001/timepoint_3/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-001/timepoint_3/FLAIR_normalized.nii.gz"
+        },
+        "4": {
+            "T1CE": "data/images/Patient-GBM-001/timepoint_4/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-001/timepoint_4/FLAIR_normalized.nii.gz"
+        },
+        "5": {
+            "T1CE": "data/images/Patient-GBM-001/timepoint_5/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-001/timepoint_5/FLAIR_normalized.nii.gz"
+        }
+    },
+    
+    "Patient-GBM-002": {
+        "responses": {
+            "1": "non-progression",
+            "2": "non-progression",
+            "3": "progression"
+        },
+        "seg_n24": "data/segmentations/Patient-GBM-002_slic_n24.nii.gz",
+        "0": {
+            "T1CE": "data/images/Patient-GBM-002/timepoint_0/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-002/timepoint_0/FLAIR_normalized.nii.gz"
+        },
+        "1": {
+            "T1CE": "data/images/Patient-GBM-002/timepoint_1/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-002/timepoint_1/FLAIR_normalized.nii.gz"
+        },
+        "2": {
+            "T1CE": "data/images/Patient-GBM-002/timepoint_2/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-002/timepoint_2/FLAIR_normalized.nii.gz"
+        },
+        "3": {
+            "T1CE": "data/images/Patient-GBM-002/timepoint_3/T1CE_normalized.nii.gz",
+            "FLAIR": "data/images/Patient-GBM-002/timepoint_3/FLAIR_normalized.nii.gz"
+        }
+    }
+}
