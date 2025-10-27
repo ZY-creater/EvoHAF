@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="docs/cover_small.png" alt="EvoHAF Framework" width="800"/>
+<img src="docs/cover_small.jpg" alt="EvoHAF Framework" width="800"/>
 
 <br><br>
 
