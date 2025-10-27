@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="docs/cover_small.jpg" alt="EvoHAF Framework" width="800"/>
+![cover_small](https://github.com/user-attachments/assets/87ee4822-4ab0-45fe-9712-e65bb3a84577)
 
 <br><br>
 
