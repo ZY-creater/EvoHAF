@@ -20,7 +20,7 @@
 ## 📢 Important Notice
 
 > **⚠️ This repository is currently under active development.**  
-> Our paper is currently under peer review. Should our work be accepted for publication, we will continue to update this repository with:
+> Our paper is currently under peer review. Due to paper length constraints, more detailed technical implementations will be presented here in the open-source repository. Should our work be accepted for publication, we will continue to update this repository with:
 > - 🔬 Additional experimental results from ongoing clinical studies
 > - 📊 Comprehensive supplementary materials and analyses
 > - 💡 Further improvements and methodological enhancements
@@ -315,7 +315,7 @@ EvoHAF employs a **two-stage training strategy**:
 - Fine-tune only the Compensated Prediction Head
 - Refine temporal dynamics and prediction evolution
 
-> **💡 Note**: When you run the training command, the model will **automatically execute both stages sequentially**. These represent the foundational training methodologies. More advanced core innovations and technical details will be thoroughly explained in accompanying documentation upon paper acceptance.
+> **💡 Note**: When you run the training command, the model will **automatically execute both stages sequentially**.
 
 ---
 
